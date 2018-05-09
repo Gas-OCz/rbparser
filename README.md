@@ -4,7 +4,8 @@ Parser pro emaily z RB. Slouží k rozparsování e-mailů z Internet Bankingu R
 
 Návod k použití:
 
-Stačí přidat soubor třídy na čtení e-mailu a parsování dat a inicializovat je.
+Stačí přidat soubor rb.ini.php a inicializovat třídu.
+
 ```
   require_once('rb.ini.php');
   
@@ -23,8 +24,9 @@ Stačí přidat soubor třídy na čtení e-mailu a parsování dat a inicializo
 Třída platby předpokládá imap spojení a id zprávy, třída načte obsah do DOM documentu, funkce getNode("parametr") rozparsuje zprávu a vrátí hodnotu dle zadaní. Třida nekontroluje odesílatele zprávy, ale kontroluje očekáváný předmět posílaný RB bankou.
 
 Pokud budou jakékoliv připomínky, či nápady na zlepšení, rád je do kódu přidám.
+
 Doufám, že pomůže.
+
 Za použití této knihovny a případně způsobené chyby nenesu zodpovědnost.
 
-Gas-OCz 
-(SitePark s.r.o.)
+### Gas-O (SitePark s.r.o.)
