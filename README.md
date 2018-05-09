@@ -14,9 +14,9 @@ Stačí přidat soubor třídy na čtení e-mailu a parsování dat a inicializo
   
   for($x=1;$x<=$count;$x++) {
     $p = new platba($x,$mbox);
-      //var_symbol, konstantni_symbol, specificky_symbol, kodbanky, ucet, jmeno, castka,
-      echo $p->getNode("datum");
-      echo "<br>";
+    //var_symbol, konstantni_symbol, specificky_symbol, kodbanky, ucet, jmeno, castka,
+    echo $p->getNode("datum");
+    echo "<br>";
   }
   
 Třída platby předpokládá imap spojení a id zprávy, třída načte obsah do DOM documentu, funkce getNode("parametr") rozparsuje zprávu a vrátí hodnotu dle zadaní. Třida nekontroluje odesílatele zprávy, ale kontroluje očekáváný předmět posílaný RB bankou.
