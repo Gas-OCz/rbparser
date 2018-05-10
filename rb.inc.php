@@ -66,6 +66,7 @@ class platba {
     }
   }
   function getPrice($price) {
+      $price = str_replace(".","",$price);
       $price = str_replace("+","",$price);
       $price = str_replace(" CZK","",$price);
       $price = str_replace(",",".",$price);
