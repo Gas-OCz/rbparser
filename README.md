@@ -23,6 +23,8 @@ Stačí přidat soubor rb.ini.php a inicializovat třídu.
 ```
 Třída platby předpokládá imap spojení a id zprávy, třída načte obsah do DOM documentu, funkce getNode("parametr") rozparsuje zprávu a vrátí hodnotu dle zadaní. Třida nekontroluje odesílatele zprávy, ale kontroluje očekáváný předmět posílaný RB bankou.
 
+Všechny soubory můsí mít utf-8 kódování.
+
 Pokud budou jakékoliv připomínky, či nápady na zlepšení, rád je do kódu přidám.
 
 Doufám, že pomůže.
